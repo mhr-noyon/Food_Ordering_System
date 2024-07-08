@@ -1,0 +1,153 @@
+
+/*void inputList()
+{
+    food *FriedRice = (food *)malloc(sizeof(food));
+    food *Burger = (food *)malloc(sizeof(food));
+    food *CheesePizza = (food *)malloc(sizeof(food));
+    food *Sandwitch = (food *)malloc(sizeof(food));
+    food *FriedChicken = (food *)malloc(sizeof(food));
+    food *ThaiSoup = (food *)malloc(sizeof(food));
+    food *FishCake = (food *)malloc(sizeof(food));
+    food *MangoJuice = (food *)malloc(sizeof(food));
+
+
+
+    strcpy(FriedRice->name,"Fried Rice   ");
+    FriedRice->price = 190;
+
+    strcpy(Burger->name,"Burger       ");
+    Burger->price = 170;
+
+    strcpy(CheesePizza->name,"Cheese Pizza ");
+    CheesePizza->price = 250;
+
+    strcpy(Sandwitch->name,"Sandwitch    ");
+    Sandwitch->price = 80;
+
+    strcpy(FriedChicken->name,"Fried Chicken");
+    FriedChicken->price = 180;
+
+    strcpy(ThaiSoup->name,"Thai Soup    ");
+    ThaiSoup->price = 210;
+
+    strcpy(FishCake->name,"Fish Cake    ");
+    FishCake->price = 70;
+
+    strcpy(MangoJuice->name,"Mango Juice  ");
+    MangoJuice->price = 50;
+
+    head = FriedRice;
+    FriedRice->prev = NULL;
+    FriedRice->next = Burger;
+
+    Burger->prev = FriedRice;
+    Burger->next = CheesePizza;
+
+    CheesePizza->prev = Burger;
+    CheesePizza->next = Sandwitch;
+
+    Sandwitch->prev = CheesePizza;
+    Sandwitch->next = FriedChicken;
+
+    FriedChicken->prev = Sandwitch;
+    FriedChicken->next = ThaiSoup;
+
+    ThaiSoup->prev = FriedChicken;
+    ThaiSoup->next = FishCake;
+
+    FishCake->prev = ThaiSoup;
+    FishCake->next = MangoJuice;
+
+    MangoJuice->prev = FishCake;
+    MangoJuice->next = NULL;
+    tail = MangoJuice;
+    countItemsZero();
+}*/
+
+
+
+
+
+
+
+
+
+
+/*void inputTempCustomers()
+{
+    customer *men1 = (customer *)malloc(sizeof(customer));
+    customer *men2 = (customer *)malloc(sizeof(customer));
+    customer *men3 = (customer *)malloc(sizeof(customer));
+    customer *men4 = (customer *)malloc(sizeof(customer));
+    customer *men5 = (customer *)malloc(sizeof(customer));
+
+    strcpy(men1->nickName,"noyon29");
+    men1->pass[0]=432;
+    men1->pass[1]=329;
+    men1->pass[2]=199;
+    men1->pass[3]=148;
+    men1->pass[4]=207;
+    men1->pass[5]=154; //ok1234
+
+    strcpy(men1->cell,"719767459");
+    men1->invest = 100;
+
+    strcpy(men2->nickName,"sajid69");
+    men2->pass[0]=443;
+    men2->pass[1]=331;
+    men2->pass[2]=199;
+    men2->pass[3]=148;
+    men2->pass[4]=207;
+    men2->pass[5]=154; //no1234
+
+    strcpy(men2->cell,"812345678");
+    men2->invest = 450;
+
+    strcpy(men3->nickName,"39apurbo");
+    men3->pass[0]=441;
+    men3->pass[1]=327;
+    men3->pass[2]=421;
+    men3->pass[3]=337;
+    men3->pass[4]=380;
+    men3->pass[5]=255; //loveMe
+    strcpy(men3->cell,"312345678");
+    men3->invest = 510;
+
+    strcpy(men4->nickName,"pranto1");
+    men4->pass[0]=449;
+    men4->pass[1]=343;
+    men4->pass[2]=422;
+    men4->pass[3]=274;
+    men4->pass[4]=427;
+    men4->pass[5]=304; //toPran
+    strcpy(men4->cell,"912345678");
+    men4->invest = 850;
+
+    strcpy(men5->nickName,"samim22");
+    men5->pass[0]=406;
+    men5->pass[1]=327;
+    men5->pass[2]=259;
+    men5->pass[3]=268;
+    men5->pass[4]=432;
+    men5->pass[5]=319; //sam2im
+    strcpy(men5->cell,"412345678");
+    men5->invest = 400;
+
+    firstInfo = men1;
+    men1->prev = NULL;
+    men1->next = men2;
+
+    men2->prev = men1;
+    men2->next = men3;
+
+    men3->prev = men2;
+    men3->next = men4;
+
+    men4->prev = men3;
+    men4->next = men5;
+
+    men5->prev = men4;
+    men5->next = NULL;
+
+    lastInfo = men5;
+}*/

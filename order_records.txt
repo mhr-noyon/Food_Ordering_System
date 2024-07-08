@@ -1,0 +1,434 @@
+
+
+
+
+
+
+		-----------------BILL RECEIPT-----------------
+
+
+	Customer Name: noyon29
+	Customer Phone: +8801719767459
+	Customer Address: dsf
+
+		Item             --         Quantity     --     Price
+		-----                       --------           ------
+		Fried Rice                  5                  950 Taka
+		--------------------------------------------------------
+		   Total                                     950 Taka
+
+
+
+
+
+
+
+
+
+		-----------------BILL RECEIPT-----------------
+
+
+	Customer Name: noyon30
+	Customer Phone: +8801512345678
+	Customer Address: mouchak, naraynganj
+
+		Item             --         Quantity     --     Price
+		-----                       --------           ------
+		Cheese Pizza                2                  500 Taka
+		Fried chicken               1                  180 Taka
+		--------------------------------------------------------
+		   Total                                     680 Taka
+
+
+
+
+
+
+
+
+
+		-----------------BILL RECEIPT-----------------
+
+
+	Customer Name: noyon29
+	Customer Phone: +8801719767459
+	Customer Address: asdf
+
+		Item             --         Quantity     --     Price
+		-----                       --------           ------
+		Burger                      4                  680 Taka
+		Sandwitch                   3                  240 Taka
+		--------------------------------------------------------
+		   Total                                     920 Taka
+
+
+
+
+
+
+
+
+
+		-----------------BILL RECEIPT-----------------
+
+
+	Customer Name: noyon29
+	Customer Phone: +8801719767459
+	Customer Address: fg
+
+		Item             --         Quantity     --     Price
+		-----                       --------           ------
+		Cheese Pizza                1                  250 Taka
+		nd
+             1                  24 Taka
+		7
+             4                  12 Taka
+		--------------------------------------------------------
+		   Total                                     286 Taka
+
+
+
+
+
+
+
+
+
+		-----------------BILL RECEIPT-----------------
+
+
+	Customer Name: noyon29
+	Customer Phone: +8801719767459
+	Customer Address: dasf
+
+		Item             --         Quantity     --     Price
+		-----                       --------           ------
+		Fried Rice                  3                  570 Taka
+		Cheese Pizza                1                  250 Taka
+		asdf             1                  34 Taka
+		adflksndkslnfl2             3                  3 Taka
+		--------------------------------------------------------
+		   Total                                     857 Taka
+
+
+
+
+
+
+
+
+
+		-----------------BILL RECEIPT-----------------
+
+
+	Customer Name: noyon29
+	Customer Phone: +8801719767459
+	Customer Address: sdfgn
+
+		Item             --         Quantity     --     Price
+		-----                       --------           ------
+		Fried Rice                  4                  760 Taka
+		Ok             4                  8 Taka
+		--------------------------------------------------------
+		   Total                                     768 Taka
+
+
+
+
+
+
+
+
+
+		-----------------BILL RECEIPT-----------------
+
+
+	Customer Name: noyon29
+	Customer Phone: +8801719767459
+	Customer Address: sgf
+
+		Item             --         Quantity     --     Price
+		-----                       --------           ------
+		Cheese Pizza   :ram ú             2                  500 Taka
+		adf             3                  9 Taka
+		--------------------------------------------------------
+		   Total                                     509 Taka
+
+
+
+
+
+
+
+
+
+		-----------------BILL RECEIPT-----------------
+
+
+	Customer Name: ok
+	Customer Phone: +8801719767457
+	Customer Address: adf
+
+		Item             --         Quantity     --     Price
+		-----                       --------           ------
+		Burger                      5                  850 Taka
+		Cheese Pizza                4                  1000 Taka
+		--------------------------------------------------------
+		   Total                                     1850 Taka
+
+
+
+
+
+
+
+
+
+		-----------------BILL RECEIPT-----------------
+
+
+	Customer Name: noyon99
+	Customer Phone: +8801812345677
+	Customer Address: Mouchak, Siddhirganj
+
+		Item             --         Quantity     --     Price
+		-----                       --------           ------
+		Burger                      3                  510 Taka
+		Thai Soup                   3                  630 Taka
+		--------------------------------------------------------
+		   Total                                     1140 Taka
+
+
+
+
+
+
+
+
+
+		-----------------BILL RECEIPT-----------------
+
+
+	Customer Name: noyon29
+	Customer Phone: +8801719767459
+	Customer Address: nara
+
+		Item             --         Quantity     --     Price
+		-----                       --------           ------
+		Burger                      1                  170 Taka
+		--------------------------------------------------------
+		   Total                                     170 Taka
+
+
+
+
+
+
+
+
+
+		-----------------BILL RECEIPT-----------------
+
+
+	Customer Name: noyon29
+	Customer Phone: +8801719767459
+	Customer Address: a
+
+		Item             --         Quantity     --     Price
+		-----                       --------           ------
+		Fried Rice                  1                  190 Taka
+		--------------------------------------------------------
+		   Total                                     190 Taka
+
+
+
+
+
+
+
+
+
+		-----------------BILL RECEIPT-----------------
+
+
+	Customer Name: noyon29
+	Customer Phone: +8801719767459
+	Customer Address: a
+
+		Item             --         Quantity     --     Price
+		-----                       --------           ------
+		Fried Rice                  1                  190 Taka
+		--------------------------------------------------------
+		   Total                                     190 Taka
+
+
+
+
+
+
+
+
+
+		-----------------BILL RECEIPT-----------------
+
+
+	Customer Name: noyon29
+	Customer Phone: +8801719767459
+	Customer Address: as
+
+		Item             --         Quantity     --     Price
+		-----                       --------           ------
+		Fried Rice                  1                  190 Taka
+		--------------------------------------------------------
+		   Total                                     190 Taka
+
+
+
+
+
+
+
+
+
+		-----------------BILL RECEIPT-----------------
+
+
+	Customer Name: noyon29
+	Customer Phone: +8801719767459
+	Customer Address: ao
+
+		Item             --         Quantity     --     Price
+		-----                       --------           ------
+		Fried Rice                  1                  190 Taka
+		--------------------------------------------------------
+		   Total                                     190 Taka
+
+
+
+
+
+
+
+
+
+		-----------------BILL RECEIPT-----------------
+
+
+	Customer Name: noyon29
+	Customer Phone: +8801719767459
+	Customer Address: naraynganj
+
+		Item             --         Quantity     --     Price
+		-----                       --------           ------
+		Fried Rice                  2                  380 Taka
+		Burger                      4                  680 Taka
+		--------------------------------------------------------
+		   Total                                     1060 Taka
+
+
+
+
+
+
+
+
+
+		-----------------BILL RECEIPT-----------------
+
+
+	Customer Name: naodn
+	Customer Phone: +8801712344612
+	Customer Address: asd
+
+		Item             --         Quantity     --     Price
+		-----                       --------           ------
+		Fried Rice                  3                  570 Taka
+		--------------------------------------------------------
+		   Total                                     570 Taka
+
+
+
+
+
+
+
+
+
+		-----------------BILL RECEIPT-----------------
+
+
+	Customer Name: naodn
+	Customer Phone: +8801712344612
+	Customer Address: asd
+
+		Item             --         Quantity     --     Price
+		-----                       --------           ------
+		Burger                      1                  170 Taka
+		--------------------------------------------------------
+		   Total                                     170 Taka
+
+
+
+
+
+
+
+
+
+		-----------------BILL RECEIPT-----------------
+
+
+	Customer Name: admin1
+	Customer Phone: +8801812345670
+	Customer Address: asdf
+
+		Item             --         Quantity     --     Price
+		-----                       --------           ------
+		Fried Rice                  6                  1140 Taka
+		Pepsi                       1                  45 Taka
+		--------------------------------------------------------
+		   Total                                     1185 Taka
+
+
+
+
+
+
+
+
+
+		-----------------BILL RECEIPT-----------------
+
+
+	Customer Name: noyon29
+	Customer Phone: +8801719767459
+	Customer Address: asdfjla
+
+		Item             --         Quantity     --     Price
+		-----                       --------           ------
+		Coke                        5                  125 Taka
+		--------------------------------------------------------
+		   Total                                     125 Taka
+
+
+
+
+
+
+
+
+
+		-----------------BILL RECEIPT-----------------
+
+
+	Customer Name: apurbo
+	Customer Phone: +8801830954828
+	Customer Address: nobigonj
+
+		Item             --         Quantity     --     Price
+		-----                       --------           ------
+		Fried Rice                  1                  190 Taka
+		Fish Cake                   1                  70 Taka
+		--------------------------------------------------------
+		   Total                                     260 Taka
+

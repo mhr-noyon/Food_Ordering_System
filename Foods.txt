@@ -1,0 +1,10 @@
+
+Fried Rice      190
+Burger          170
+Cheese Pizza    250
+Sandwitch       80
+Fried chicken   180
+Thai Soup       210
+Fish Cake       70
+Mango Juice     50
+Pepsi           45
