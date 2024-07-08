@@ -6,5 +6,3 @@ Sandwitch       80
 Fried chicken   180
 Thai Soup       210
 Fish Cake       70
-Mango Juice     50
-Pepsi           45

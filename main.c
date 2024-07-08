@@ -84,7 +84,7 @@ void inputItemList();
 void showMenuList();
 void showSelectedItem();
 void countItemsZero();
-void countSelectedItems();
+void countSelectedItems(int item, int quantity);
 void billPage();
 int order();
 void addItem();
@@ -92,18 +92,18 @@ void updateItem();
 void deleteItem();
 void signUp();
 void logIn();
-int findNameExistance();
-int matchPass(char passTemp[15]);
+int findNameExistance(char nameTemp[15]);
+int matchPass(char passTemp[]);
 int findCellExistance(char cellTemp[12]);
-void deleteSpecificItem();
+int deleteSpecificItem();
 void adminPanel();
 int adminLogIn();
 int matchAdminPass();
 void inputTempCustomers();
-void changePass();
+// void changePass();
 
 
-void showCustomerList();
+void showCustomerList(int order);
 void mergeSort(customer** head, int order);
 void devide2Part(customer* head, customer** left, customer** right);
 customer* conquer(customer* left, customer* right, int order);
@@ -111,15 +111,15 @@ customer* conquer(customer* left, customer* right, int order);
 char opt[4], quantity[4],optMainPanel[4], exits[4], optAdminPanel[4];
 char address[15];
 int availableItems=0,orderProcessRun,orderTime=1,logInTruth=0,adminLogInTruth=0,truthValueOfChoice,truthValueOfQuantity,quantityOfItem,option,showBill,money;
-int nameTemp[15],passTemp[7];
+char nameTemp[15],passTemp[7];
 //char adminPass[]="admin1";
-int adminPass[]={397,294,424,323,257,269};
+int adminPass[]={199, 148, 207, 154, 215, 160}; //123456
 int main()
 {
     inputItemList();
     inputTempCustomers();
-    int runConsole=1;
-    while(runConsole)
+    int runConsole=1,run=1;
+    while(runConsole && run)
     {
         system("cls");
         //printf("\nEnter in main func\n\n");
@@ -132,7 +132,8 @@ int main()
             printf("\t1. Show Menu List\n\n");
             printf("\t2. Log in account\n\n");
             printf("\t3. Sign Up\n\n");
-            printf("\t4. Admin panel\n\n\n");
+            printf("\t4. Admin panel\n\n");
+            printf("\t5. Exit\n\n\n");
             printf("\t---> Choose option: ");
             fflush(stdin);
             scanf("%[^\n]s",optMainPanel);
@@ -150,7 +151,11 @@ int main()
                     break;
             case 4:
                 adminPanel();
-                //runConsole=0;
+                break;
+
+            case 5:
+                runConsole=0;
+                run=0;
                 break;
             default:
                 printf("Invalid Option, Try again\n");
@@ -163,6 +168,8 @@ int main()
         runConsole=1;
         system("cls");
     }
+
+    return 0;
 }
 
 int stringToInt(char s[])
@@ -279,6 +286,7 @@ int order()
             fflush(stdin);
             scanf("%[^\n]s",opt);
             option = stringToInt(opt);
+            printf("%d\n",option);
             if(option==0)
             {
                 //printf("\n\t\t***Invalid OPTION***");
@@ -335,6 +343,7 @@ int order()
             }
         }
     }
+    return 0;
 }
 /*
 void changePass()
@@ -475,6 +484,7 @@ int checkPhoneNumber(char number[12])
         printf("\n\t***Invalid contact number or, already used***\n");
         return 0;
     }
+    return 0;
 }
 void signUp()
 {
@@ -607,10 +617,7 @@ int findNameExistance(char nameTemp[15])
             }
         travers=travers->next;
     }
-    if(travers==NULL)
-    {
-        return 0;
-    }
+    return 0;
 }
 int matchPass(char passTemp[])
 {
@@ -630,10 +637,7 @@ int matchPass(char passTemp[])
     {
         return 1;
     }
-    else
-    {
-        return 0;
-    }
+    return 0;
 }
 int findCellExistance(char cellTemp[12])
 {
@@ -647,10 +651,7 @@ int findCellExistance(char cellTemp[12])
             }
         travers=travers->next;
     }
-    if(travers==NULL)
-    {
-        return 0;
-    }
+    return 0;
 }
 int adminLogIn()
 {
@@ -733,7 +734,8 @@ void adminPanel()
 }
 void addItem()
 {
-
+    
+    
     food* newNode=(food*)malloc(sizeof(food));
     if(newNode==NULL)
         printf("\t\tMEMORY IS FULL\n");
@@ -741,10 +743,17 @@ void addItem()
     {
         system("cls");
         showMenuList();
+        printf("\t\t00. Go BACK   \t\t<--<--<--\n");
+        printf("\n\t\t-------------------------------------\n\n");
         printf("\tTo add, \n");
         printf("\t---> Enter item name: ");
         fflush(stdin);
         scanf("%[^\n]s",newNode->name);
+        if(stringToInt(newNode->name)==0)
+        {
+            free(newNode);
+            return ;
+        }
         int len= strlen(newNode->name);
         //printf("%d len\n",len);
         if(len<15)
@@ -794,28 +803,30 @@ void deleteItem()
             fflush(stdin);
             scanf("%[^\n]s",optMainPanel);
             //printf("%d",stringToInt(optMainPanel));
+            int opt=stringToInt(optMainPanel);
             optionTruth=1;
-            switch(stringToInt(optMainPanel))
+            switch(opt)
             {
-
-            case 1: ;
-                temp = head;
-                head=head->next;
-                free(temp);
-                break;
-            case 2: ;
-                temp = tail;
-                tail=tail->prev;
-                tail->next=NULL;
-                free(temp);
-                break;
-            case 3:
-                deleteSpecificItem();
-                break;
-            case 4:
-                return;
-            default: optionTruth=0;
-                printf("\n\t\tInvalid Option, Try again\n");
+                case 1: 
+                    temp = head;
+                    head=head->next;
+                    free(temp);
+                    break;
+                case 2:
+                    temp = tail;
+                    tail=tail->prev;
+                    tail->next=NULL;
+                    free(temp);
+                    break;
+                case 3:
+                    if(!deleteSpecificItem()){
+                        optionTruth=0;
+                    }
+                    break;
+                case 4:
+                    return;
+                default: optionTruth=0;
+                    printf("\n\t\tInvalid Option, Try again\n");
             }
         }
 
@@ -827,25 +838,39 @@ void deleteItem()
     updateItemListFile();
     exitDisplay();
 }
-void deleteSpecificItem()
+int deleteSpecificItem()
 {
 
     int position,delTruth=0,i;
     while(delTruth!=1)
     {
+        printf("\n\t\t-------------------------------------\n\n");
+        printf("\t\t00. Go BACK   \t\t<--<--<--\n");
+        printf("\n\t\t-------------------------------------\n\n");
         printf("\tTo delete, \n");
         printf("\t\t---> Enter position of the item: ");
-        scanf("%d",&position);
+        char position[5];
+        fflush(stdin);
+        scanf("%[^\n]s",position);
+        int positionInt = stringToInt(position);
+        if(positionInt==0)
+        {
+            return 0;
+        }
         food* travers=head;
         food* travers2;
         food* travers3;
         i=1;
-        while(i+1!=position && travers->next!=NULL)
+        while(i+1!=positionInt && travers->next!=NULL)
         {
             travers=travers->next;
             i++;
+            if(i>1000){
+                printf("\n\t\tItem doesn't exist\n");
+                return 0;
+            }
         }
-        if(i+1==position && travers->next!=NULL)
+        if(i+1==positionInt && travers->next!=NULL)
         {
             travers2=travers->next;
             travers3=travers2->next;
@@ -861,7 +886,7 @@ void deleteSpecificItem()
             delTruth=0;
         }
     }
-
+    return 1;
 }
 void updateItem()
 {
@@ -873,17 +898,30 @@ void updateItem()
     {
         system("cls");
         showMenuList();
-        int position,i=1;
+        printf("\t\t00. Go BACK   \t\t<--<--<--\n");
+        printf("\n\t\t-------------------------------------\n\n");
         printf("\tTo update, \n");
         printf("\t\t---> Enter position of the item: ");
-        scanf("%d",&position);
+        char position[5];
+        fflush(stdin);
+        scanf("%[^\n]s",position);
+        int positionInt = stringToInt(position);
+        if(positionInt==0)
+        {
+            return;
+        }
+        int i=1;
         food* travers=head;
-        while(i!=position && travers!=NULL)
+        while(i!=positionInt && travers!=NULL)
         {
             travers=travers->next;
             i++;
+            if(i>1000){
+                printf("\n\t\tItem doesn't exist\n");
+                return;
+            }
         }
-        if(i==position && travers!=NULL)
+        if(i==positionInt && travers!=NULL)
         {
             printf("\t\t---> Enter new item name: ");
             fflush(stdin);
@@ -899,6 +937,7 @@ void updateItem()
             }
             printf("\t\t---> Enter new price: ");
             scanf("%d",&travers->price);
+            
             showMenuList();
             printf("\n\t\tList Updated\n");
 
@@ -931,21 +970,19 @@ int matchAdminPass()
     {
         return 1;
     }
-    else
-    {
-        printf("\n\t\tWrong password. Try again, \n");
-        return 0;
-    }
+    printf("\n\t\tWrong password. Try again, \n");
+    return 0;
 }
 void countItemsZero()
 {
     food *travers=head;
     while(travers!=NULL)
     {
+        // printf("%d\n",travers->count);
         travers->count = 0;
         travers = travers->next;
     }
-
+    return;
 }
 void inputItemList()
 {

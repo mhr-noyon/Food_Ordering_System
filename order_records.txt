@@ -432,3 +432,25 @@
 		--------------------------------------------------------
 		   Total                                     260 Taka
 
+
+
+
+
+
+
+
+
+		-----------------BILL RECEIPT-----------------
+
+
+	Customer Name: noyon29
+	Customer Phone: +8801719767459
+	Customer Address: mouchak, narqa
+
+		Item             --         Quantity     --     Price
+		-----                       --------           ------
+		Burger                      4                  680 Taka
+		Fried chicken               2                  360 Taka
+		--------------------------------------------------------
+		   Total                                     1040 Taka
+
